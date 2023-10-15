@@ -1,8 +1,5 @@
-# import openpyxl                               // pip install openpyxl
 import streamlit as st  # at terminal, type: streamlit run appname.py      // pip install streamlit
 from streamlit_option_menu import option_menu  # pip install streamlit_option_menu
-import os
-import MAP
 import QAP
 import SAWT
 import SLSP
@@ -10,7 +7,7 @@ import SLSP
 # import form_1604E
 # import form_1604F
 import form_2307
-from PIL import Image
+
 
 hide_menu = """
                 <style> # MainMenu { visibility:hidden; }
@@ -26,17 +23,6 @@ st.set_page_config(
 
     # https://icons.getbootstrap.com/           # icons are coming from this link
 )
-
-
-# st.sidebar.markdown("<div style='text-align: center;'>"
-#                     "<img src='FORM2307\\logo1.png' width='500'></div>",
-#                     unsafe_allow_html=True)
-
-# # st.sidebar.image("C:\\Users\\USER\\PycharmProjects\\Ororama\\FORM2307\\logo1.png", width=1200)
-# st.sidebar.image("C:\\Users\\USER\\PycharmProjects\\Ororama\\FORM2307\\logo1.png", use_column_width=True)
-# Load and display the image
-# logo_file_path = "C:\\Users\\USER\\PycharmProjects\\Ororama\\FORM2307\\vastmartlogxx.png"
-# st.sidebar.image(logo_file_path)
 
 
 def main():
